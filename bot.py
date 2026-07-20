@@ -1,7 +1,9 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "MTUyODc3OTM2Mzc1NDA0OTUzNg.GbTd9B.VldvAhUFe5SSHj_5Ialz2prTn9C7wIClfQcxRo"
+import os
+
+TOKEN = os.getenv("TOKEN")
 ROLE_ID = 123456789012345678  # ID dyal Role Minecraft
 
 intents = discord.Intents.default()
