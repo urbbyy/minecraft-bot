@@ -4,7 +4,7 @@ from discord.ext import commands
 import os
 
 TOKEN = os.getenv("TOKEN")
-ROLE_ID = 1519879162289066164  # ID dyal Role Minecraft
+ROLE_ID = 1528778148383162428  # ID dyal Role Minecraft
 
 intents = discord.Intents.default()
 intents.members = True
